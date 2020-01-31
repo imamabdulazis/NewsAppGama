@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "749121694866",
+    "firebase_url": "https://newsgama-18e11.firebaseio.com",
+    "project_id": "newsgama-18e11",
+    "storage_bucket": "newsgama-18e11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749121694866:android:003e6b2af5da300d",
+        "android_client_info": {
+          "package_name": "com.example.newsapp_gama"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749121694866-0h89k4okq5t2l1h2i96953ef1dde9qo6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArdage49yFO-lM21zzZSSAuz6eDjg3aZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "749121694866-0h89k4okq5t2l1h2i96953ef1dde9qo6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
