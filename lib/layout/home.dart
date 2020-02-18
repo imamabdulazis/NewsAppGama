@@ -22,7 +22,7 @@ class _HomeState extends State<Home> {
       new GlobalKey<RefreshIndicatorState>();
   //event
   String Base_Url1 =
-      "https://www.bernas.id/api/android/v1/list?datewl=0000-00-00%2000:00:00&kategori=3&berita=baru";
+      "https://*********/api/android/v1/list?datewl=0000-00-00%2000:00:00&kategori=3&berita=baru";
   List<Berita> list1;
   //api berita list
   Future<List<Berita>> _getBerita1() async {
@@ -42,7 +42,7 @@ class _HomeState extends State<Home> {
 
   //NLP
   String Base_Url2 =
-      "https://www.bernas.id/api/android/v1/list?datewl=0000-00-00%2000:00:00&kategori=4&berita=baru";
+      "https://*********/api/android/v1/list?datewl=0000-00-00%2000:00:00&kategori=4&berita=baru";
   List<Berita> list2;
   //api berita list
   Future<List<Berita>> _getBerita2() async {
@@ -62,7 +62,7 @@ class _HomeState extends State<Home> {
 
   //inspirasi
   String Base_Url3 =
-      "https://www.bernas.id/api/android/v1/list?datewl=0000-00-00%2000:00:00&kategori=5&berita=baru";
+      "https://******/api/android/v1/list?datewl=0000-00-00%2000:00:00&kategori=5&berita=baru";
   List<Berita> list3;
   //api berita list
   Future<List<Berita>> _getBerita3() async {
@@ -82,7 +82,7 @@ class _HomeState extends State<Home> {
 
   //tokoh
   String Base_Url4 =
-      "https://www.bernas.id/api/android/v1/list?datewl=0000-00-00%2000:00:00&kategori=6&berita=baru";
+      "https://************/api/android/v1/list?datewl=0000-00-00%2000:00:00&kategori=6&berita=baru";
   List<Berita> list4;
   //api berita list
   Future<List<Berita>> _getBerita4() async {
@@ -102,7 +102,7 @@ class _HomeState extends State<Home> {
 
   //properti
   String Base_Url5 =
-      "https://www.bernas.id/api/android/v1/list?datewl=0000-00-00%2000:00:00&kategori=7&berita=baru";
+      "https://*******/api/android/v1/list?datewl=0000-00-00%2000:00:00&kategori=7&berita=baru";
   List<Berita> list5;
   //api berita list
   Future<List<Berita>> _getBerita5() async {
@@ -122,7 +122,7 @@ class _HomeState extends State<Home> {
 
   //ekonomi
   String Base_Url6 =
-      "https://www.bernas.id/api/android/v1/list?datewl=0000-00-00%2000:00:00&kategori=8&berita=baru";
+      "https://*********/api/android/v1/list?datewl=0000-00-00%2000:00:00&kategori=8&berita=baru";
   List<Berita> list6;
   //api berita list
   Future<List<Berita>> _getBerita6() async {
@@ -142,7 +142,7 @@ class _HomeState extends State<Home> {
 
   //perbankan
   String Base_Url7 =
-      "https://www.bernas.id/api/android/v1/list?datewl=0000-00-00%2000:00:00&kategori=9&berita=baru";
+      "https://********/api/android/v1/list?datewl=0000-00-00%2000:00:00&kategori=9&berita=baru";
   List<Berita> list7;
   //api berita list
   Future<List<Berita>> _getBerita7() async {
@@ -162,7 +162,7 @@ class _HomeState extends State<Home> {
 
   //internt
   String Base_Url8 =
-      "https://www.bernas.id/api/android/v1/list?datewl=0000-00-00%2000:00:00&kategori=10&berita=baru";
+      "https://********/api/android/v1/list?datewl=0000-00-00%2000:00:00&kategori=10&berita=baru";
   List<Berita> list8;
   //api berita list
   Future<List<Berita>> _getBerita8() async {
@@ -207,13 +207,13 @@ class _HomeState extends State<Home> {
                       background: Carousel(
                         images: [
                           NetworkImage(
-                              'http://www.harianbernas.com/online/public/foto_news/image_news_535/01565085167SAVE_20190806_165111.jpg'),
+                              'http://www.harian******/online/public/foto_news/image_news_535/01565085167SAVE_20190806_165111.jpg'),
                           NetworkImage(
-                              'http://www.harianbernas.com/online/public/foto_news/image_news_300/01565116737images%20(1).jpeg'),
+                              'http://www.harian*******/online/public/foto_news/image_news_300/01565116737images%20(1).jpeg'),
                           NetworkImage(
-                              'http://www.harianbernas.com/online/public/foto_news/image_news_535/01565090113IMG_20190806_163504.jpg'),
+                              'http://www.harian*****/online/public/foto_news/image_news_535/01565090113IMG_20190806_163504.jpg'),
                           NetworkImage(
-                              'http://www.harianbernas.com/online/public/foto_news/image_news_535/01565085848IMG-20190806-WA0096.jpg'),
+                              'http://www.harian******/online/public/foto_news/image_news_535/01565085848IMG-20190806-WA0096.jpg'),
                         ],
                         dotSize: 4.0,
                         dotSpacing: 15.0,
